@@ -1,0 +1,39 @@
+CHEATSHEET GIT Y GITHUB
+
+pwd -> Muestra la carpeta en la que se está trabajando actualmente
+
+ls -> Lista archivos en el directorio o carpeta
+
+ls -R -> Muestra las carpetas y los archivos contenidos en ellos de manera recursiva
+
+mkdir [Carpeta] -> Crea una nueva directorio o carpeta
+
+touch [Nombre del archivo] -> Crea un nuevo archivo
+
+rm [Nombre del archivo] -> Elimina un archivo 
+
+rmdir [Nombre de la carpeta] -> Elimina una carpeta vacía
+
+rm -r [Nombre de la carpeta] -> Elimina una carpeta y su contenido
+
+clear -> Limpia la pantalla de la terminal
+
+cd .. -> Sube un nivel de carpeta 
+
+cd -> Cambia de carpeta
+
+git init -> Crea el repositorio
+
+git config user.name -> Agrega nuestra identidad 
+
+git config user.email -> Agrega nuestro email
+
+git add . -> Agrega todos los archivos
+
+git status -> Da seguimiento del estado de los archivos 
+
+git commit -m "mensaje" -> Comitea los cambios hechos
+
+git push origin main -> Sube al repo principal los cambios hechos
+
+git pull origin main -> Actualiza el repo local
